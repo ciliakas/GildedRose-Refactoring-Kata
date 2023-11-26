@@ -5,6 +5,7 @@
   "scripts": {
     "precompile": "rimraf --glob app/**/*.js test/**/*.js",
     "compile": "tsc",
+    "start": "ts-node app/index.ts",
     "pretest": "rimraf --glob app/**/*.js test/**/*.js",
     "test:jest": "jest",
     "test:jest:watch": "jest --watchAll",
@@ -19,6 +20,7 @@
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.14.0",
     "@vitest/coverage-istanbul": "^0.28.5",
+    "axios": "^1.6.2",
     "chai": "^4.3.4",
     "jest": "^29.4.3",
     "mocha": "^10.2.0",
